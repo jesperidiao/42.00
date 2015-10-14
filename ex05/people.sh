@@ -1,0 +1,1 @@
+ ldapsearch -Q uid='z*' | grep cn: | cut -f2 -f3 -d ' ' | sort -rf
